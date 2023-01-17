@@ -1,4 +1,4 @@
-FROM quay.io/podman/stable:v3.4.4
+FROM quay.io/podman/stable:v4.3
 
 RUN yum update -y && \
     yum install -y unzip && \
